@@ -17,10 +17,13 @@ py -m venv venv
 venv/Scripts/activate
 ```
 Install dependencies
+Flask is for web creation
+nltk is natural languange toolkit
 ```
 (venv) pip install Flask torch torchvision nltk
 ```
 Install nltk package
+Natural language
 ```
 (venv) py
 >>> import nltk
