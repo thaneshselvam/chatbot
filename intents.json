@@ -1,0 +1,111 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Greetings from Setel! We're ready to assist you",
+        "Hello from Setel"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+        {
+      "tag": "stuck",
+      "patterns": ["I'm stuck at activating page. It keeps reconnecting whenever I tried to fuel at the station"],
+      "responses": [
+        "We're sorry for any inconvenience caused. We'll proceed for manual release"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "fuel",
+      "patterns": [
+        "I have problem on fuelling session",
+        "I can't fuel",
+        "I can't activate the pump"
+      ],
+      "responses": [
+        "Kindly do basic troubleshoot (e.g. Kill apps and try to refuel again). We're sorry for the inconvenience caused. Please revert back to us if the issue still persist."
+      ]
+    },
+    {
+      "tag": "cancel",
+      "patterns": [
+        "Please cancel this fuel order and void my purchase"
+      ],
+      "responses": [
+        "We're sorry for any inconvenience caused. We'll proceed for credit hold to cancel the order and the transaction amount will revert back in 30 minutes. Our agent will handle this shortly."
+      ]
+    },
+    {
+      "tag": "cancel",
+      "patterns": [
+        "I want to cancel my order"
+      ],
+      "responses": [
+        "We will cancel it on our side. Please do not wait and we will cancel this order shortly. "
+      ]
+    },
+    {
+      "tag": "pump",
+      "patterns": [
+        "I can't activate the pump",
+        "The pump stuck"
+      ],
+      "responses": [
+        "We're sorry for any inconvenience caused. We'll look into this matter in a few moment. Our agent will assist you shortly. We're highly appreciate your patience on this. Thank you."
+      ]
+    },
+    {
+      "tag": "top-up",
+      "patterns": [
+        "I have problem on top-up issue",
+        "I can't top-up my Setel Wallet",
+        "I'm stuck on the top-up page",
+        "I tried to top-up but its still loading",
+        "The top up not reflect in my accounts"
+      ],
+      "responses": [
+        "We're sorry for the inconvenience caused. We'll look into this matter in a few moment. Our agent will assist you shortly. We're highly appreciate your patience on this. Thank you."
+      ]
+    },
+    {
+      "tag": "Deliver2Me",
+      "patterns": [
+        "Please refund back my deliver2me order"
+      ],
+      "responses": [
+        "We will refund back your order in 3-5 working days. We will inform you back once it is done."
+      ]
+    },
+    {
+      "tag": "process",
+      "patterns": [
+        "Why this order took so long to process? ",
+        "I didn't receive my items yet"
+      ],
+      "responses": [
+        "We will contact the station to deliver your order. Kindly wait a moment.Thank you"
+      ]
+    }
+  ]
+}
